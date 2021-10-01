@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8E1BE">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="415dp"
+        android:layout_height="220dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.002"
+        app:srcCompat="@drawable/motivasi">
+
+    </ImageView>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="230dp"
+        android:textAlignment="center"
+        android:textColor="@color/orange_tua"
+        android:textSize="34sp"
+        tools:text="Welcome Jhon"
+        android:outlineProvider="none"
+        android:textStyle="bold"
+        >
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="280dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        tools:text="Selamat datang di Aplikasi Smart Skripsi!!! Yuk Mulai Buat Periode Pengerjaan Skripsimu, dan lakukan dengan konsisten ya!!"
+        android:outlineProvider="none"
+        android:textStyle="italic"
+        >
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="390dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        tools:text="Masukkan Periode"
+        android:outlineProvider="none"
+        android:textStyle="italic"
+        >
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="420dp"
+        android:background="@color/orange_tua"
+        android:outlineProvider="none">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="450dp"
+        android:background="@drawable/rounded"
+        android:outlineProvider="none"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        tools:text="dd/mm/yyyy">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="450dp"
+        android:outlineProvider="none"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        tools:text="S/D">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="450dp"
+        android:outlineProvider="none"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:layout_marginLeft="230dp"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:background="@drawable/rounded"
+        tools:text="dd/mm/yyyy">
+
+    </TextView>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="580dp"
+        android:background="@drawable/rounded"
+        android:textStyle="normal"
+        tools:text="Next">
+
+    </Button>
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
